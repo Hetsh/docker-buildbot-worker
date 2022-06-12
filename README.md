@@ -26,7 +26,7 @@ docker run --mount type=bind,source=/path/to/storage,target=/buildbot-worker ...
 ## Configuration
 Create an initial configuration file by running:
 ```bash
-docker run ... hetsh/buildbot-worker create-worker
+docker run ... hetsh/buildbot-worker create-worker <master:9989> <worker-name> <password>
 ```
 Stick to [Buildbot's documentation](https://docs.buildbot.net/current/manual) for further configuration.
 
