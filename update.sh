@@ -30,7 +30,6 @@ update_pkg "py3-setuptools" "Python Setup-Tools" "false" "$MAIN_PKG_URL" "(\d+\.
 update_pkg "py3-attrs" "Python Classes" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-idna" "Python IDNA" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-cffi" "Python C-FFI" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
-update_pkg "py3-cparser" "Python Hyperlink" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 # Community Repo
 COMMUNITY_PKG_URL="$BASE_PKG_URL/community/$IMG_ARCH"
 update_pkg "py3-autobahn" "Python Autobahn" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
@@ -38,6 +37,7 @@ update_pkg "py3-txaio" "Python TXA-IO" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+
 update_pkg "py3-zope-interface" "Python Zope Interface" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-msgpack" "Python MessagePack" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-twisted" "Python Twisted" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
+update_pkg "py3-hyperlink" "Python Hyperlink" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-cryptography" "Python Cryptography" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-typing-extensions" "Python Type-Hints" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-automat" "Python Automat" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
