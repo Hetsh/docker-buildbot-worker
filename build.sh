@@ -31,7 +31,7 @@ case "${1-}" in
 			--tty \
 			--interactive \
 			--mount type=bind,source=/etc/localtime,target=/etc/localtime,readonly \
-			"$IMG_NAME:test" create-worker
+			"$IMG_NAME:test" --version
 	;;
 	# Build if it does not exist and push image to docker hub
 	"--upload")

@@ -42,29 +42,21 @@ update_pkg "py3-greenlet" "Python Greenlet" "false" "$COMMUNITY_PKG_URL" "(\d+\.
 update_pkg "py3-jwt" "Python JWT" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-autobahn" "Python Autobahn" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-txaio" "Python TXA-IO" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
-update_pkg "py3-twisted" "Python Twisted" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
-update_pkg "py3-hyperlink" "Python Hyperlink" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
-update_pkg "py3-cryptography" "Python Cryptography" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-dateutil" "Python Date-Utilities" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-alembic" "Python Alembic" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-sqlalchemy" "Python SQL-Alchemy" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-zope-interface" "Python Zope Interface" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-msgpack" "Python MessagePack" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
+update_pkg "py3-twisted" "Python Twisted" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
+update_pkg "py3-hyperlink" "Python Hyperlink" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
+update_pkg "py3-cryptography" "Python Cryptography" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-typing-extensions" "Python Type-Hints" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-automat" "Python Automat" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-incremental" "Python Incremental" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-constantly" "Python Constantly" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 
-
-
-
-
-
-
-
-
-
-
+# Buildbot Tarballs
+update_github "buildbot/buildbot" "Buildbot" "APP_VERSION" "(\d+\.)+\d+"
 
 
 if ! updates_available; then
