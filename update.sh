@@ -24,6 +24,7 @@ IMG_ARCH="x86_64"
 BASE_PKG_URL="https://pkgs.alpinelinux.org/package/edge"
 # Main Repo
 MAIN_PKG_URL="$BASE_PKG_URL/main/$IMG_ARCH"
+update_pkg "git" "Git" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "python3" "Python 3" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "pythonispython3" "Python Alias" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-setuptools" "Python Setup-Tools" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"

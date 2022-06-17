@@ -1,6 +1,7 @@
 FROM amd64/alpine:20220328
 RUN apk update && \
     apk add --no-cache \
+        git=2.36.1-r0 \
         python3=3.10.5-r0 \
         pythonispython3=3.10.5-r0 \
         py3-autobahn=21.3.1-r2 \
