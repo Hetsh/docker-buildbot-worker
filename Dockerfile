@@ -1,7 +1,7 @@
 FROM amd64/alpine:20220328
 RUN apk update && \
+    # Buildbot-Worker dependencies
     apk add --no-cache \
-        git=2.36.1-r0 \
         python3=3.10.5-r0 \
         pythonispython3=3.10.5-r0 \
         py3-autobahn=21.3.1-r2 \
@@ -18,7 +18,15 @@ RUN apk update && \
         py3-incremental=21.3.0-r2 \
         py3-constantly=15.1.0-r5 \
         py3-idna=3.3-r2 \
-        py3-cffi=1.15.0-r0
+        py3-cffi=1.15.0-r0 && \
+    # Custom dependencies for updating Docker images
+    apk add --no-cache \
+        jq=1.6-r1 \
+        git=2.36.1-r0 \
+        curl=7.83.1-r1 \
+        grep=3.7-r0 \
+        bash=5.1.16-r2 \
+        openssh-client-default=9.0_p1-r1
 
 # App user
 ARG APP_USER="buildbot"
