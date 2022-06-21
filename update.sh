@@ -49,6 +49,7 @@ update_pkg "py3-typing-extensions" "Python Type-Hints" "false" "$COMMUNITY_PKG_U
 update_pkg "py3-automat" "Python Automat" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-incremental" "Python Incremental" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "py3-constantly" "Python Constantly" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
+update_pkg "docker-cli" "Docker CLI" "false" "$COMMUNITY_PKG_URL" "(\d+\.)+\d+-r\d+"
 
 # Buildbot Tarballs
 update_github "buildbot/buildbot" "Buildbot" "APP_VERSION" "(\d+\.)+\d+"
