@@ -33,13 +33,18 @@ RUN apk update && \
 ARG APP_USER="buildbot"
 ARG APP_UID=1381
 ARG DATA_DIR="/buildbot"
-RUN adduser \
-    --disabled-password \
-    --uid "$APP_UID" \
-    --home "$DATA_DIR" \
-    --gecos "$APP_USER" \
-    --shell /sbin/nologin \
-    "$APP_USER"
+ARG DOCKER_GROUP="docker"
+RUN addgroup \
+        --gid "972" \
+        "$DOCKER_GROUP" && \
+    adduser \
+        --disabled-password \
+        --uid "$APP_UID" \
+        --home "$DATA_DIR" \
+        --gecos "$APP_USER" \
+        --shell /sbin/nologin \
+        --ingroup "$DOCKER_GROUP" \
+        "$APP_USER"
 VOLUME ["$DATA_DIR"]
 
 # Server files
