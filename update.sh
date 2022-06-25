@@ -35,6 +35,7 @@ update_pkg "git" "Git" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "curl" "cURL" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "grep" "Grep" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "bash" "Bash" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
+update_pkg "coreutils" "Core-Utilities" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+-r\d+"
 update_pkg "openssh-client-default" "SSH Client" "false" "$MAIN_PKG_URL" "(\d+\.)+\d+_p\d+-r\d+"
 # Community Repo
 COMMUNITY_PKG_URL="$BASE_PKG_URL/community/$IMG_ARCH"
