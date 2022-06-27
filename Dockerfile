@@ -22,7 +22,7 @@ RUN apk update && \
     # Custom dependencies for updating Docker images
     apk add --no-cache \
         jq=1.6-r1 \
-        git=2.36.1-r0 \
+        git=2.37.0-r0 \
         curl=7.83.1-r1 \
         grep=3.7-r0 \
         bash=5.1.16-r2 \
