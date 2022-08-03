@@ -10,7 +10,7 @@ RUN apk update && \
         py3-twisted=22.2.0-r0 \
         py3-setuptools=59.4.0-r0 \
         py3-hyperlink=21.0.0-r2 \
-        py3-cryptography=37.0.4-r0 \
+        py3-cryptography=37.0.4-r1 \
         py3-typing-extensions=4.3.0-r0 \
         py3-attrs=21.4.0-r0 \
         py3-automat=20.2.0-r2 \
@@ -26,7 +26,7 @@ RUN apk update && \
         grep=3.7-r0 \
         bash=5.1.16-r2 \
         coreutils=9.1-r0 \
-        docker-cli=20.10.17-r1 \
+        docker-cli=20.10.17-r2 \
         openssh-client-default=9.0_p1-r4
 
 # App user
