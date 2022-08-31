@@ -22,7 +22,7 @@ RUN apk update && \
     apk add --no-cache \
         jq=1.6-r1 \
         git=2.37.1-r1 \
-        curl=7.84.0-r2 \
+        curl=7.85.0-r0 \
         grep=3.7-r0 \
         bash=5.1.16-r2 \
         coreutils=9.1-r0 \
