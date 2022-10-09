@@ -10,7 +10,7 @@ RUN apk update && \
         py3-twisted=22.4.0-r0 \
         py3-setuptools=65.4.1-r0 \
         py3-hyperlink=21.0.0-r2 \
-        py3-cryptography=37.0.4-r2 \
+        py3-cryptography=38.0.1-r0 \
         py3-typing-extensions=4.4.0-r0 \
         py3-attrs=22.1.0-r0 \
         py3-automat=20.2.0-r2 \
