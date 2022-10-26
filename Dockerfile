@@ -2,7 +2,7 @@ FROM amd64/alpine:20220715
 RUN apk update && \
     # Buildbot-Worker dependencies
     apk add --no-cache \
-        python3=3.10.8-r1 \
+        python3=3.10.8-r3 \
         py3-autobahn=22.7.1-r0 \
         py3-txaio=22.2.1-r0 \
         py3-zope-interface=5.4.0-r1 \
@@ -22,7 +22,7 @@ RUN apk update && \
     apk add --no-cache \
         jq=1.6-r2 \
         git=2.38.1-r0 \
-        curl=7.86.0-r0 \
+        curl=7.86.0-r1 \
         grep=3.8-r1 \
         bash=5.2.2-r0 \
         coreutils=9.1-r0 \
