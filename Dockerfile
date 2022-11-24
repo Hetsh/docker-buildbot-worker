@@ -3,19 +3,19 @@ RUN apk update && \
     # Buildbot-Worker dependencies
     apk add --no-cache \
         python3=3.11.0-r2 \
-        py3-autobahn=22.7.1-r0 \
-        py3-txaio=22.2.1-r0 \
-        py3-zope-interface=5.5.1-r0 \
-        py3-msgpack=1.0.4-r0 \
-        py3-twisted=22.10.0-r0 \
+        py3-autobahn=22.7.1-r1 \
+        py3-txaio=22.2.1-r1 \
+        py3-zope-interface=5.5.1-r1 \
+        py3-msgpack=1.0.4-r1 \
+        py3-twisted=22.10.0-r1 \
         py3-setuptools=65.6.2-r0 \
-        py3-hyperlink=21.0.0-r2 \
-        py3-cryptography=38.0.3-r0 \
-        py3-typing-extensions=4.4.0-r0 \
+        py3-hyperlink=21.0.0-r3 \
+        py3-cryptography=38.0.3-r1 \
+        py3-typing-extensions=4.4.0-r1 \
         py3-attrs=22.1.0-r1 \
-        py3-automat=22.10.0-r0 \
-        py3-incremental=22.10.0-r0 \
-        py3-constantly=15.1.0-r5 \
+        py3-automat=22.10.0-r1 \
+        py3-incremental=22.10.0-r1 \
+        py3-constantly=15.1.0-r6 \
         py3-idna=3.4-r3 \
         py3-cffi=1.15.1-r1 && \
     # Custom dependencies for updating Docker images
