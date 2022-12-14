@@ -21,10 +21,10 @@ RUN apk update && \
     # Custom dependencies for updating Docker images
     apk add --no-cache \
         jq=1.6-r2 \
-        git=2.38.2-r0 \
+        git=2.39.0-r0 \
         curl=7.86.0-r1 \
         grep=3.8-r1 \
-        bash=5.2.12-r0 \
+        bash=5.2.15-r0 \
         coreutils=9.1-r0 \
         docker-cli=20.10.21-r2 \
         openssh-client-default=9.1_p1-r1
