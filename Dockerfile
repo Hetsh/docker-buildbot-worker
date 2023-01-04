@@ -5,7 +5,7 @@ RUN apk update && \
         python3=3.11.1-r2 \
         py3-autobahn=22.12.1-r0 \
         py3-txaio=22.2.1-r1 \
-        py3-zope-interface=5.5.1-r1 \
+        py3-zope-interface=5.5.2-r0 \
         py3-msgpack=1.0.4-r1 \
         py3-twisted=22.10.0-r1 \
         py3-setuptools=65.6.3-r0 \
