@@ -8,7 +8,7 @@ RUN apk update && \
         py3-zope-interface=5.5.2-r0 \
         py3-msgpack=1.0.4-r1 \
         py3-twisted=22.10.0-r1 \
-        py3-setuptools=67.3.1-r0 \
+        py3-setuptools=67.3.2-r0 \
         py3-hyperlink=21.0.0-r3 \
         py3-cryptography=39.0.1-r0 \
         py3-typing-extensions=4.5.0-r0 \
@@ -22,7 +22,7 @@ RUN apk update && \
     apk add --no-cache \
         jq=1.6-r2 \
         git=2.39.2-r0 \
-        curl=7.88.0-r0 \
+        curl=7.88.0-r1 \
         grep=3.8-r1 \
         bash=5.2.15-r0 \
         coreutils=9.1-r0 \
