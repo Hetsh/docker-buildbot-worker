@@ -23,7 +23,7 @@ RUN apk update && \
         jq=1.6-r2 \
         git=2.39.2-r0 \
         curl=7.88.1-r1 \
-        grep=3.8-r1 \
+        grep=3.9-r0 \
         bash=5.2.15-r0 \
         coreutils=9.1-r0 \
         docker-cli=23.0.1-r1 \
