@@ -48,7 +48,7 @@ RUN addgroup \
 VOLUME ["$DATA_DIR"]
 
 # Server files
-ARG APP_VERSION=3.7.0
+ARG APP_VERSION=3.8.0
 RUN WORKER_ARCHIVE="worker.tar.gz" && \
     wget \
         --quiet \
