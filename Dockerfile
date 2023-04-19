@@ -27,7 +27,7 @@ RUN apk update && \
         bash=5.2.15-r3 \
         coreutils=9.3-r1 \
         docker-cli=23.0.4-r1 \
-        openssh-client-default=9.3_p1-r2
+        openssh-client-default=9.3_p1-r3
 
 # App user
 ARG APP_USER="buildbot"
