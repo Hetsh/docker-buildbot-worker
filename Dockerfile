@@ -26,7 +26,7 @@ RUN apk update && \
         grep=3.11-r0 \
         bash=5.2.15-r3 \
         coreutils=9.3-r1 \
-        docker-cli=23.0.6-r3 \
+        docker-cli=23.0.6-r4 \
         openssh-client-default=9.3_p1-r4
 
 # App user
