@@ -22,11 +22,11 @@ RUN apk update && \
     apk add --no-cache \
         jq=1.6-r3 \
         git=2.40.1-r0 \
-        curl=8.1.0-r0 \
+        curl=8.1.0-r1 \
         grep=3.11-r0 \
         bash=5.2.15-r3 \
         coreutils=9.3-r2 \
-        docker-cli=23.0.6-r4 \
+        docker-cli=24.0.0-r0 \
         openssh-client-default=9.3_p1-r4
 
 # App user
