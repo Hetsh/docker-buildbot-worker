@@ -24,7 +24,7 @@ RUN apk update && \
         git=2.40.1-r0 \
         curl=8.1.1-r0 \
         grep=3.11-r0 \
-        bash=5.2.15-r4 \
+        bash=5.2.15-r5 \
         coreutils=9.3-r2 \
         docker-cli=24.0.1-r0 \
         openssh-client-default=9.3_p1-r6
