@@ -11,7 +11,7 @@ RUN apk update && \
         py3-setuptools=67.8.0-r0 \
         py3-hyperlink=21.0.0-r4 \
         py3-cryptography=41.0.1-r0 \
-        py3-typing-extensions=4.6.2-r0 \
+        py3-typing-extensions=4.6.3-r0 \
         py3-attrs=23.1.0-r1 \
         py3-automat=22.10.0-r2 \
         py3-incremental=22.10.0-r2 \
