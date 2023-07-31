@@ -8,16 +8,16 @@ RUN apk update && \
         py3-zope-interface=6.0-r0 \
         py3-msgpack=1.0.5-r1 \
         py3-twisted=22.10.0-r3 \
-        py3-setuptools=68.0.0-r1 \
+        py3-setuptools=68.0.0-r2 \
         py3-hyperlink=21.0.0-r4 \
-        py3-cryptography=41.0.2-r1 \
+        py3-cryptography=41.0.2-r2 \
         py3-typing-extensions=4.7.1-r1 \
         py3-attrs=23.1.0-r1 \
         py3-automat=22.10.0-r2 \
         py3-incremental=22.10.0-r2 \
         py3-constantly=15.1.0-r7 \
         py3-idna=3.4-r4 \
-        py3-cffi=1.15.1-r3 && \
+        py3-cffi=1.15.1-r4 && \
     # Custom dependencies for updating Docker images
     apk add --no-cache \
         jq=1.6-r3 \
