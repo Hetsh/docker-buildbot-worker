@@ -2,7 +2,7 @@ FROM amd64/alpine:20230329
 RUN apk update && \
     # Buildbot-Worker dependencies
     apk add --no-cache \
-        python3=3.11.4-r4 \
+        python3=3.11.5-r0 \
         py3-autobahn=23.6.2-r0 \
         py3-txaio=23.1.1-r1 \
         py3-zope-interface=6.0-r0 \
