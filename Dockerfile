@@ -1,4 +1,4 @@
-FROM amd64/alpine:20230329
+FROM amd64/alpine:20230901
 RUN apk update && \
     # Buildbot-Worker dependencies
     apk add --no-cache \
