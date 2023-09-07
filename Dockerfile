@@ -20,7 +20,7 @@ RUN apk update && \
         py3-cffi=1.15.1-r4 && \
     # Custom dependencies for updating Docker images
     apk add --no-cache \
-        jq=1.6-r3 \
+        jq=1.7-r0 \
         git=2.42.0-r0 \
         curl=8.2.1-r0 \
         grep=3.11-r0 \
