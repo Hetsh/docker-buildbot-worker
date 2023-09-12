@@ -8,7 +8,7 @@ RUN apk update && \
         py3-zope-interface=6.0-r0 \
         py3-msgpack=1.0.5-r1 \
         py3-twisted=22.10.0-r3 \
-        py3-setuptools=68.2.0-r0 \
+        py3-setuptools=68.2.1-r0 \
         py3-hyperlink=21.0.0-r4 \
         py3-cryptography=41.0.3-r0 \
         py3-typing-extensions=4.7.1-r1 \
