@@ -17,7 +17,7 @@ RUN apk update && \
         py3-incremental=22.10.0-r2 \
         py3-constantly=15.1.0-r7 \
         py3-idna=3.4-r4 \
-        py3-cffi=1.15.1-r4 && \
+        py3-cffi=1.16.0-r0 && \
     # Custom dependencies for updating Docker images
     apk add --no-cache \
         jq=1.7-r1 \
