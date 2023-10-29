@@ -7,7 +7,7 @@ RUN apk update && \
         py3-txaio=23.1.1-r1 \
         py3-zope-interface=6.0-r0 \
         py3-msgpack=1.0.7-r0 \
-        py3-twisted=22.10.0-r3 \
+        py3-twisted=22.10.0-r4 \
         py3-setuptools=68.2.2-r0 \
         py3-hyperlink=21.0.0-r4 \
         py3-cryptography=41.0.5-r0 \
